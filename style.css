@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use Kantumruy Pro font, fallback to sans-serif if not available */
+}
+
+.App {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+  .profile-picture {
+    height: 25vmin;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #555657;
+  }
+
+  .description {
+    font-size: calc(5px + 2vmin);
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  .icons-container {
+    display: flex;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    fill: #333;
+  }
+
+  .icon:hover {
+    fill: black;
+  }
